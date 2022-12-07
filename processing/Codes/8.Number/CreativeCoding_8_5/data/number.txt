@@ -1,0 +1,15 @@
+Structure	37
+Environment	18
+Data	53
+Control	19
+Shape	37
+Input	40
+Output	20
+Transform	13
+Lights, Camera	27
+Color	16
+Image	19
+Rendering	9
+Typography	12
+Math	48
+Constants	5

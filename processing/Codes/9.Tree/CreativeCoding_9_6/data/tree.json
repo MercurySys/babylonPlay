@@ -1,0 +1,653 @@
+{
+  "children": [
+    {
+      "children": [
+        {"name": "() (parentheses)"},
+        {"name": ", (comma)"},
+        {"name": ". (dot)"},
+        {"name": "/* */ (multiline comment)"},
+        {"name": "/** */ (doc comment)"},
+        {"name": "// (comment)"},
+        {"name": "; (semicolon)"},
+        {"name": "= (assign)"},
+        {"name": "[] (array access)"},
+        {"name": "{} (curly braces)"},
+        {"name": "catch"},
+        {"name": "class"},
+        {"name": "draw()"},
+        {"name": "exit()"},
+        {"name": "extends"},
+        {"name": "false"},
+        {"name": "final"},
+        {"name": "implements"},
+        {"name": "import"},
+        {"name": "loop()"},
+        {"name": "new"},
+        {"name": "noLoop()"},
+        {"name": "null"},
+        {"name": "popStyle()"},
+        {"name": "private"},
+        {"name": "public"},
+        {"name": "pushStyle()"},
+        {"name": "redraw()"},
+        {"name": "return"},
+        {"name": "setup()"},
+        {"name": "static"},
+        {"name": "super"},
+        {"name": "this"},
+        {"name": "thread()"},
+        {"name": "true"},
+        {"name": "try"},
+        {"name": "void"}
+      ],
+      "name": "Structure"
+    },
+    {
+      "children": [
+        {"name": "cursor()"},
+        {"name": "delay()"},
+        {"name": "displayDensity()"},
+        {"name": "focused"},
+        {"name": "frameCount"},
+        {"name": "frameRate()"},
+        {"name": "frameRate"},
+        {"name": "fullScreen()"},
+        {"name": "height"},
+        {"name": "noCursor()"},
+        {"name": "noSmooth()"},
+        {"name": "pixelDensity()"},
+        {"name": "pixelHeight"},
+        {"name": "pixelWidth"},
+        {"name": "settings()"},
+        {"name": "size()"},
+        {"name": "smooth()"},
+        {"name": "width"}
+      ],
+      "name": "Environment"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {"name": "boolean"},
+            {"name": "byte"},
+            {"name": "char"},
+            {"name": "color"},
+            {"name": "double"},
+            {"name": "float"},
+            {"name": "int"},
+            {"name": "long"}
+          ],
+          "name": "Primitive"
+        },
+        {
+          "children": [
+            {"name": "Array"},
+            {"name": "ArrayList"},
+            {"name": "FloatDict"},
+            {"name": "FloatList"},
+            {"name": "HashMap"},
+            {"name": "IntDict"},
+            {"name": "IntList"},
+            {"name": "JSONArray"},
+            {"name": "JSONObject"},
+            {"name": "Object"},
+            {"name": "String"},
+            {"name": "StringDict"},
+            {"name": "StringList"},
+            {"name": "Table"},
+            {"name": "TableRow"},
+            {"name": "XML"}
+          ],
+          "name": "Composite"
+        },
+        {
+          "children": [
+            {"name": "binary()"},
+            {"name": "boolean()"},
+            {"name": "byte()"},
+            {"name": "char()"},
+            {"name": "float()"},
+            {"name": "hex()"},
+            {"name": "int()"},
+            {"name": "str()"},
+            {"name": "unbinary()"},
+            {"name": "unhex()"}
+          ],
+          "name": "Conversion"
+        },
+        {
+          "children": [
+            {"name": "join()"},
+            {"name": "match()"},
+            {"name": "matchAll()"},
+            {"name": "nf()"},
+            {"name": "nfc()"},
+            {"name": "nfp()"},
+            {"name": "nfs()"},
+            {"name": "split()"},
+            {"name": "splitTokens()"},
+            {"name": "trim()"}
+          ],
+          "name": "String Functions"
+        },
+        {
+          "children": [
+            {"name": "append()"},
+            {"name": "arrayCopy()"},
+            {"name": "concat()"},
+            {"name": "expand()"},
+            {"name": "reverse()"},
+            {"name": "shorten()"},
+            {"name": "sort()"},
+            {"name": "splice()"},
+            {"name": "subset()"}
+          ],
+          "name": "Array Functions"
+        }
+      ],
+      "name": "Data"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {"name": "!= (inequality)"},
+            {"name": "< (less than)"},
+            {"name": "<= (less than or equal to)"},
+            {"name": "== (equality)"},
+            {"name": "> (greater than)"},
+            {"name": ">= (greater than or equal to)"}
+          ],
+          "name": "Relational Operators"
+        },
+        {
+          "children": [
+            {"name": "for"},
+            {"name": "while"}
+          ],
+          "name": "Iteration"
+        },
+        {
+          "children": [
+            {"name": "?: (conditional)"},
+            {"name": "break"},
+            {"name": "case"},
+            {"name": "continue"},
+            {"name": "default"},
+            {"name": "else"},
+            {"name": "if"},
+            {"name": "switch"}
+          ],
+          "name": "Conditionals"
+        },
+        {
+          "children": [
+            {"name": "! (logical NOT)"},
+            {"name": "&& (logical AND)"},
+            {"name": "|| (logical OR)"}
+          ],
+          "name": "Logical Operators"
+        }
+      ],
+      "name": "Control"
+    },
+    {
+      "children": [
+        {"name": "createShape()"},
+        {"name": "loadShape()"},
+        {"name": "PShape"},
+        {
+          "children": [
+            {"name": "arc()"},
+            {"name": "ellipse()"},
+            {"name": "line()"},
+            {"name": "point()"},
+            {"name": "quad()"},
+            {"name": "rect()"},
+            {"name": "triangle()"}
+          ],
+          "name": "2D Primitives"
+        },
+        {
+          "children": [
+            {"name": "bezier()"},
+            {"name": "bezierDetail()"},
+            {"name": "bezierPoint()"},
+            {"name": "bezierTangent()"},
+            {"name": "curve()"},
+            {"name": "curveDetail()"},
+            {"name": "curvePoint()"},
+            {"name": "curveTangent()"},
+            {"name": "curveTightness()"}
+          ],
+          "name": "Curves"
+        },
+        {
+          "children": [
+            {"name": "box()"},
+            {"name": "sphere()"},
+            {"name": "sphereDetail()"}
+          ],
+          "name": "3D Primitives"
+        },
+        {
+          "children": [
+            {"name": "ellipseMode()"},
+            {"name": "rectMode()"},
+            {"name": "strokeCap()"},
+            {"name": "strokeJoin()"},
+            {"name": "strokeWeight()"}
+          ],
+          "name": "Attributes"
+        },
+        {
+          "children": [
+            {"name": "beginContour()"},
+            {"name": "beginShape()"},
+            {"name": "bezierVertex()"},
+            {"name": "curveVertex()"},
+            {"name": "endContour()"},
+            {"name": "endShape()"},
+            {"name": "quadraticVertex()"},
+            {"name": "vertex()"}
+          ],
+          "name": "Vertex"
+        },
+        {
+          "children": [
+            {"name": "shape()"},
+            {"name": "shapeMode()"}
+          ],
+          "name": "Loading & Displaying"
+        }
+      ],
+      "name": "Shape"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {"name": "mouseButton"},
+            {"name": "mouseClicked()"},
+            {"name": "mouseDragged()"},
+            {"name": "mouseMoved()"},
+            {"name": "mousePressed()"},
+            {"name": "mousePressed"},
+            {"name": "mouseReleased()"},
+            {"name": "mouseWheel()"},
+            {"name": "mouseX"},
+            {"name": "mouseY"},
+            {"name": "pmouseX"},
+            {"name": "pmouseY"}
+          ],
+          "name": "Mouse"
+        },
+        {
+          "children": [
+            {"name": "key"},
+            {"name": "keyCode"},
+            {"name": "keyPressed()"},
+            {"name": "keyPressed"},
+            {"name": "keyReleased()"},
+            {"name": "keyTyped()"}
+          ],
+          "name": "Keyboard"
+        },
+        {
+          "children": [
+            {"name": "BufferedReader"},
+            {"name": "createInput()"},
+            {"name": "createReader()"},
+            {"name": "launch()"},
+            {"name": "loadBytes()"},
+            {"name": "loadJSONArray()"},
+            {"name": "loadJSONObject()"},
+            {"name": "loadStrings()"},
+            {"name": "loadTable()"},
+            {"name": "loadXML()"},
+            {"name": "parseJSONArray()"},
+            {"name": "parseJSONObject()"},
+            {"name": "parseXML()"},
+            {"name": "selectFolder()"},
+            {"name": "selectInput()"}
+          ],
+          "name": "Files"
+        },
+        {
+          "children": [
+            {"name": "day()"},
+            {"name": "hour()"},
+            {"name": "millis()"},
+            {"name": "minute()"},
+            {"name": "month()"},
+            {"name": "second()"},
+            {"name": "year()"}
+          ],
+          "name": "Time & Date"
+        }
+      ],
+      "name": "Input"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {"name": "print()"},
+            {"name": "printArray()"},
+            {"name": "println()"}
+          ],
+          "name": "Text Area"
+        },
+        {
+          "children": [
+            {"name": "save()"},
+            {"name": "saveFrame()"}
+          ],
+          "name": "Image"
+        },
+        {
+          "children": [
+            {"name": "beginRaw()"},
+            {"name": "beginRecord()"},
+            {"name": "createOutput()"},
+            {"name": "createWriter()"},
+            {"name": "endRaw()"},
+            {"name": "endRecord()"},
+            {"name": "PrintWriter"},
+            {"name": "saveBytes()"},
+            {"name": "saveJSONArray()"},
+            {"name": "saveJSONObject()"},
+            {"name": "saveStream()"},
+            {"name": "saveStrings()"},
+            {"name": "saveTable()"},
+            {"name": "saveXML()"},
+            {"name": "selectOutput()"}
+          ],
+          "name": "Files"
+        }
+      ],
+      "name": "Output"
+    },
+    {
+      "children": [
+        {"name": "applyMatrix()"},
+        {"name": "popMatrix()"},
+        {"name": "printMatrix()"},
+        {"name": "pushMatrix()"},
+        {"name": "resetMatrix()"},
+        {"name": "rotate()"},
+        {"name": "rotateX()"},
+        {"name": "rotateY()"},
+        {"name": "rotateZ()"},
+        {"name": "scale()"},
+        {"name": "shearX()"},
+        {"name": "shearY()"},
+        {"name": "translate()"}
+      ],
+      "name": "Transform"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {"name": "ambientLight()"},
+            {"name": "directionalLight()"},
+            {"name": "lightFalloff()"},
+            {"name": "lights()"},
+            {"name": "lightSpecular()"},
+            {"name": "noLights()"},
+            {"name": "normal()"},
+            {"name": "pointLight()"},
+            {"name": "spotLight()"}
+          ],
+          "name": "Lights"
+        },
+        {
+          "children": [
+            {"name": "beginCamera()"},
+            {"name": "camera()"},
+            {"name": "endCamera()"},
+            {"name": "frustum()"},
+            {"name": "ortho()"},
+            {"name": "perspective()"},
+            {"name": "printCamera()"},
+            {"name": "printProjection()"}
+          ],
+          "name": "Camera"
+        },
+        {
+          "children": [
+            {"name": "modelX()"},
+            {"name": "modelY()"},
+            {"name": "modelZ()"},
+            {"name": "screenX()"},
+            {"name": "screenY()"},
+            {"name": "screenZ()"}
+          ],
+          "name": "Coordinates"
+        },
+        {
+          "children": [
+            {"name": "ambient()"},
+            {"name": "emissive()"},
+            {"name": "shininess()"},
+            {"name": "specular()"}
+          ],
+          "name": "Material Properties"
+        }
+      ],
+      "name": "Lights, Camera"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {"name": "background()"},
+            {"name": "clear()"},
+            {"name": "colorMode()"},
+            {"name": "fill()"},
+            {"name": "noFill()"},
+            {"name": "noStroke()"},
+            {"name": "stroke()"}
+          ],
+          "name": "Setting"
+        },
+        {
+          "children": [
+            {"name": "alpha()"},
+            {"name": "blue()"},
+            {"name": "brightness()"},
+            {"name": "color()"},
+            {"name": "green()"},
+            {"name": "hue()"},
+            {"name": "lerpColor()"},
+            {"name": "red()"},
+            {"name": "saturation()"}
+          ],
+          "name": "Creating & Reading"
+        }
+      ],
+      "name": "Color"
+    },
+    {
+      "children": [
+        {"name": "createImage()"},
+        {"name": "PImage"},
+        {
+          "children": [
+            {"name": "image()"},
+            {"name": "imageMode()"},
+            {"name": "loadImage()"},
+            {"name": "noTint()"},
+            {"name": "requestImage()"},
+            {"name": "tint()"}
+          ],
+          "name": "Loading & Displaying"
+        },
+        {
+          "children": [
+            {"name": "texture()"},
+            {"name": "textureMode()"},
+            {"name": "textureWrap()"}
+          ],
+          "name": "Textures"
+        },
+        {
+          "children": [
+            {"name": "blend()"},
+            {"name": "copy()"},
+            {"name": "filter()"},
+            {"name": "get()"},
+            {"name": "loadPixels()"},
+            {"name": "pixels[]"},
+            {"name": "set()"},
+            {"name": "updatePixels()"}
+          ],
+          "name": "Pixels"
+        }
+      ],
+      "name": "Image"
+    },
+    {
+      "children": [
+        {"name": "blendMode()"},
+        {"name": "clip()"},
+        {"name": "createGraphics()"},
+        {"name": "noClip()"},
+        {"name": "PGraphics"},
+        {
+          "children": [
+            {"name": "loadShader()"},
+            {"name": "PShader"},
+            {"name": "resetShader()"},
+            {"name": "shader()"}
+          ],
+          "name": "Shaders"
+        }
+      ],
+      "name": "Rendering"
+    },
+    {
+      "children": [
+        {"name": "PFont"},
+        {
+          "children": [
+            {"name": "createFont()"},
+            {"name": "loadFont()"},
+            {"name": "text()"},
+            {"name": "textFont()"}
+          ],
+          "name": "Loading & Displaying"
+        },
+        {
+          "children": [
+            {"name": "textAlign()"},
+            {"name": "textLeading()"},
+            {"name": "textMode()"},
+            {"name": "textSize()"},
+            {"name": "textWidth()"}
+          ],
+          "name": "Attributes"
+        },
+        {
+          "children": [
+            {"name": "textAscent()"},
+            {"name": "textDescent()"}
+          ],
+          "name": "Metrics"
+        }
+      ],
+      "name": "Typography"
+    },
+    {
+      "children": [
+        {"name": "PVector"},
+        {
+          "children": [
+            {"name": "% (modulo)"},
+            {"name": "* (multiply)"},
+            {"name": "*= (multiply assign)"},
+            {"name": "+ (addition)"},
+            {"name": "++ (increment)"},
+            {"name": "+= (add assign)"},
+            {"name": "- (minus)"},
+            {"name": "-- (decrement)"},
+            {"name": "-= (subtract assign)"},
+            {"name": "/ (divide)"},
+            {"name": "/= (divide assign)"}
+          ],
+          "name": "Operators"
+        },
+        {
+          "children": [
+            {"name": "& (bitwise AND)"},
+            {"name": "<< (left shift)"},
+            {"name": ">> (right shift)"},
+            {"name": "| (bitwise OR)"}
+          ],
+          "name": "Bitwise Operators"
+        },
+        {
+          "children": [
+            {"name": "abs()"},
+            {"name": "ceil()"},
+            {"name": "constrain()"},
+            {"name": "dist()"},
+            {"name": "exp()"},
+            {"name": "floor()"},
+            {"name": "lerp()"},
+            {"name": "log()"},
+            {"name": "mag()"},
+            {"name": "map()"},
+            {"name": "max()"},
+            {"name": "min()"},
+            {"name": "norm()"},
+            {"name": "pow()"},
+            {"name": "round()"},
+            {"name": "sq()"},
+            {"name": "sqrt()"}
+          ],
+          "name": "Calculation"
+        },
+        {
+          "children": [
+            {"name": "acos()"},
+            {"name": "asin()"},
+            {"name": "atan()"},
+            {"name": "atan2()"},
+            {"name": "cos()"},
+            {"name": "degrees()"},
+            {"name": "radians()"},
+            {"name": "sin()"},
+            {"name": "tan()"}
+          ],
+          "name": "Trigonometry"
+        },
+        {
+          "children": [
+            {"name": "noise()"},
+            {"name": "noiseDetail()"},
+            {"name": "noiseSeed()"},
+            {"name": "random()"},
+            {"name": "randomGaussian()"},
+            {"name": "randomSeed()"}
+          ],
+          "name": "Random"
+        }
+      ],
+      "name": "Math"
+    },
+    {
+      "children": [
+        {"name": "HALF_PI"},
+        {"name": "PI"},
+        {"name": "QUARTER_PI"},
+        {"name": "TAU"},
+        {"name": "TWO_PI"}
+      ],
+      "name": "Constants"
+    }
+  ],
+  "name": "Processing"
+}
