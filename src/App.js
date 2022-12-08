@@ -9,6 +9,7 @@ function App() {
           <header>
               <ul>
                   <li> <Link to={'/home'}>HOME</Link></li>
+                  <li> <Link to={'/three'}>Three</Link></li>
                   <li><Link to={'/babylon'}>Babylon</Link></li>
               </ul>
           </header>
