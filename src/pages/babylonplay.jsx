@@ -5,6 +5,26 @@ import {useState,useEffect,useRef} from "react";
 const BabylonPlay = ()=>{
     const canvasRef = useRef();
 
+    const importMesh =(scene,engine)=>{
+        /*BABYLON.SceneLoader.ImportMeshAsync("mymesh", "./obj/", "first.obj").then((result) => {
+            result.meshes[1].position.x = 20;
+            const myMesh1 = scene.getMeshByName("myMesh_1");
+            //myMesh1.rotation.y = Math.PI / 2;
+            myMesh1.position.y =  8;
+        });*/
+        const loader = new BABYLON.AssetsManager(scene);
+        const bunny = loader.addMeshTask("bunny", "", "./obj/", "first.obj");
+       // bunny.onSuccess = pos;
+
+        loader.onFinish = function() {
+            engine.runRenderLoop(function() {
+                scene.render();
+            });
+        };
+
+        loader.load()
+    }
+
     const renderInit =() =>{
         const  canvas = canvasRef.current
         // Load the 3D engine
@@ -15,6 +35,8 @@ const BabylonPlay = ()=>{
         engine.runRenderLoop(function(){
             scene.render();
         });
+
+        importMesh(scene,engine);
 
         window.addEventListener('resize', function(){
             engine.resize();
@@ -28,7 +50,8 @@ const BabylonPlay = ()=>{
         // Target the camera to scene origin
         camera.setTarget(BABYLON.Vector3.Zero());
         // Attach the camera to the canvas
-        camera.attachControl(canvas, false);
+
+ 1       camera.attachControl(canvas, false);
         // Create a basic light, aiming 0, 1, 0 - meaning, to the sky
         var light = new BABYLON.HemisphericLight('light1', new BABYLON.Vector3(0, 1, 0), scene);
         // Create a built-in "sphere" shape using the SphereBuilder
